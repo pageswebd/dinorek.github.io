@@ -23,7 +23,7 @@ html{
 }
 
 .contenedor-header header{
-    max-width: 1100px;
+    max-width: 1250px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -552,6 +552,101 @@ html{
     float: left;
     position: relative;
     bottom: 4px;
+}
+
+/* TRABAJOS REALIZADOS */
+
+.trabajos{
+    margin: auto;
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+    text-align:center;
+    overflow: hidden;
+    background-color: #252A2E;
+}
+
+
+.after::after {
+    content: '';
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    height: 2px;
+    background: #1CB698;;
+    margin-bottom: 45px;
+}
+
+
+.botones-work{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.botones-work ul li a{
+    text-align: center;
+    color: #1CB698;
+    margin: 5px 15px;
+    padding: 5px;
+    transition: .5s;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+    background-color: #35393f90;
+    font-size: 30px;
+
+}
+
+.botones-work ul li a:hover{
+    color: #fff;
+}
+
+
+.botones-work .active{
+    background: #1CB698;;
+    color: white;
+}
+
+.galeria-work{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    justify-content: space-around;
+}
+
+.galeria-work .cont-work{
+    width: 48%;
+    box-shadow: 0 0 6px #252A2E;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.img-work{
+  height: 240px;
+  width: 500px;
+}
+
+
+.img-work img{
+    height: 100%;
+    width: 80%;
+   padding-top: 48px;
+    object-fit: cover;
+}
+
+
+.trabajos h1{
+    font-size: 55px;
+    font-family: 'Righteous';
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.img-work video{
+    padding-top: 50px;
+    
 }
 
 /* CONTACTO */
